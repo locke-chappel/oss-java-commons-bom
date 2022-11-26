@@ -38,6 +38,7 @@
         <com.github.lc.oss.commons.signing.version>1.0.0</com.github.lc.oss.commons.signing.version>
         <com.github.lc.oss.commons.ssh.version>1.0.0</com.github.lc.oss.commons.ssh.version>
         <com.github.lc.oss.commons.util.version>1.0.0</com.github.lc.oss.commons.util.version>
+        <com.github.lc.oss.commons.validation.version>1.0.0</com.github.lc.oss.commons.validation.version>
         <com.github.lc.oss.commons.web.version>1.0.0</com.github.lc.oss.commons.web.version>
         <com.github.lc.oss.commons.web.resources.version>1.0.0</com.github.lc.oss.commons.web.resources.version>
 
@@ -146,6 +147,11 @@
                 <groupId>com.github.lc.oss.commons</groupId>
                 <artifactId>util</artifactId>
                 <version>${com.github.lc.oss.commons.util.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.lc.oss.commons</groupId>
+                <artifactId>validation</artifactId>
+                <version>${com.github.lc.oss.commons.validation.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.lc.oss.commons</groupId>
