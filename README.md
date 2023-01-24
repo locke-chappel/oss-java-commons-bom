@@ -8,7 +8,7 @@ The intended use case is for a parent POM to declare this BOM as a dependency un
 <dependencyManagement>
   <dependencies>
     <dependency>
-      <groupId>com.github.lc.oss.commons</groupId>
+      <groupId>com.github.locke-chappel.oss.commons</groupId>
       <artifactId>bom</artifactId>
       <version>${com.github.lc.oss.common.bom.version}</version>
       <type>pom</type>
