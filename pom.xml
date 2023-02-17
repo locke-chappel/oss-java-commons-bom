@@ -4,17 +4,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.github.locke-chappel.oss</groupId>
+        <groupId>io.github.locke-chappel.oss</groupId>
         <artifactId>parent</artifactId>
         <version>1.0.0</version>
     </parent>
     
-    <groupId>com.github.locke-chappel.oss.commons</groupId>
+    <groupId>io.github.locke-chappel.oss.commons</groupId>
     <artifactId>bom</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>OSS Commons Bill of Materials</name>
-    <description>Bill of Materials for com.github.locke-chappel.oss.commons projects</description>
+    <description>Bill of Materials for io.github.locke-chappel.oss.commons projects</description>
     <url>https://github.com/locke-chappel/oss-commons-bom</url>
 
     <licenses>
@@ -43,162 +43,162 @@
     </scm>
     
     <properties>
-        <com.github.lc.oss.commons.api.identity.version>1.0.0</com.github.lc.oss.commons.api.identity.version>
-        <com.github.lc.oss.commons.api.logging.version>1.0.0</com.github.lc.oss.commons.api.logging.version>
-        <com.github.lc.oss.commons.api.services.version>1.0.0</com.github.lc.oss.commons.api.services.version>
-        <com.github.lc.oss.commons.email.version>1.0.0</com.github.lc.oss.commons.email.version>
-        <com.github.lc.oss.commons.encoding.version>1.0.0</com.github.lc.oss.commons.encoding.version>
-        <com.github.lc.oss.commons.encryption.version>1.0.0</com.github.lc.oss.commons.encryption.version>
-        <com.github.lc.oss.commons.encryption.config.version>1.0.0</com.github.lc.oss.commons.encryption.config.version>
-        <com.github.lc.oss.commons.google.auth.version>1.0.0</com.github.lc.oss.commons.google.auth.version>
-        <com.github.lc.oss.commons.hashing.version>1.0.0</com.github.lc.oss.commons.hashing.version>
-        <com.github.lc.oss.commons.identity.version>1.0.0</com.github.lc.oss.commons.identity.version>
-        <com.github.lc.oss.commons.javafx.version>1.0.0</com.github.lc.oss.commons.javafx.version>
-        <com.github.lc.oss.commons.jpa.version>1.0.0</com.github.lc.oss.commons.jpa.version>
-        <com.github.lc.oss.commons.jwt.version>1.0.0</com.github.lc.oss.commons.jwt.version>
-        <com.github.lc.oss.commons.l10n.version>1.0.0</com.github.lc.oss.commons.l10n.version>
-        <com.github.lc.oss.commons.raspberrypi.version>1.0.0</com.github.lc.oss.commons.raspberrypi.version>
-        <com.github.lc.oss.commons.serialization.version>1.0.0</com.github.lc.oss.commons.serialization.version>
-        <com.github.lc.oss.commons.services.version>1.0.0</com.github.lc.oss.commons.services.version>
-        <com.github.lc.oss.commons.signing.version>1.0.0</com.github.lc.oss.commons.signing.version>
-        <com.github.lc.oss.commons.ssh.version>1.0.0</com.github.lc.oss.commons.ssh.version>
-        <com.github.lc.oss.commons.util.version>1.0.0</com.github.lc.oss.commons.util.version>
-        <com.github.lc.oss.commons.validation.version>1.0.0</com.github.lc.oss.commons.validation.version>
-        <com.github.lc.oss.commons.web.version>1.0.0</com.github.lc.oss.commons.web.version>
-        <com.github.lc.oss.commons.web.resources.version>1.0.0</com.github.lc.oss.commons.web.resources.version>
+        <io.github.lc.oss.commons.api.identity.version>1.0.0</io.github.lc.oss.commons.api.identity.version>
+        <io.github.lc.oss.commons.api.logging.version>1.0.0</io.github.lc.oss.commons.api.logging.version>
+        <io.github.lc.oss.commons.api.services.version>1.0.0</io.github.lc.oss.commons.api.services.version>
+        <io.github.lc.oss.commons.email.version>1.0.0</io.github.lc.oss.commons.email.version>
+        <io.github.lc.oss.commons.encoding.version>1.0.0</io.github.lc.oss.commons.encoding.version>
+        <io.github.lc.oss.commons.encryption.version>1.0.0</io.github.lc.oss.commons.encryption.version>
+        <io.github.lc.oss.commons.encryption.config.version>1.0.0</io.github.lc.oss.commons.encryption.config.version>
+        <io.github.lc.oss.commons.google.auth.version>1.0.0</io.github.lc.oss.commons.google.auth.version>
+        <io.github.lc.oss.commons.hashing.version>1.0.0</io.github.lc.oss.commons.hashing.version>
+        <io.github.lc.oss.commons.identity.version>1.0.0</io.github.lc.oss.commons.identity.version>
+        <io.github.lc.oss.commons.javafx.version>1.0.0</io.github.lc.oss.commons.javafx.version>
+        <io.github.lc.oss.commons.jpa.version>1.0.0</io.github.lc.oss.commons.jpa.version>
+        <io.github.lc.oss.commons.jwt.version>1.0.0</io.github.lc.oss.commons.jwt.version>
+        <io.github.lc.oss.commons.l10n.version>1.0.0</io.github.lc.oss.commons.l10n.version>
+        <io.github.lc.oss.commons.raspberrypi.version>1.0.0</io.github.lc.oss.commons.raspberrypi.version>
+        <io.github.lc.oss.commons.serialization.version>1.0.0</io.github.lc.oss.commons.serialization.version>
+        <io.github.lc.oss.commons.services.version>1.0.0</io.github.lc.oss.commons.services.version>
+        <io.github.lc.oss.commons.signing.version>1.0.0</io.github.lc.oss.commons.signing.version>
+        <io.github.lc.oss.commons.ssh.version>1.0.0</io.github.lc.oss.commons.ssh.version>
+        <io.github.lc.oss.commons.util.version>1.0.0</io.github.lc.oss.commons.util.version>
+        <io.github.lc.oss.commons.validation.version>1.0.0</io.github.lc.oss.commons.validation.version>
+        <io.github.lc.oss.commons.web.version>1.0.0</io.github.lc.oss.commons.web.version>
+        <io.github.lc.oss.commons.web.resources.version>1.0.0</io.github.lc.oss.commons.web.resources.version>
 
-        <com.github.lc.oss.commons.testing.version>1.0.0</com.github.lc.oss.commons.testing.version>
-        <com.github.lc.oss.commons.testing.web.version>1.0.0</com.github.lc.oss.commons.testing.web.version>
+        <io.github.lc.oss.commons.testing.version>1.0.0</io.github.lc.oss.commons.testing.version>
+        <io.github.lc.oss.commons.testing.web.version>1.0.0</io.github.lc.oss.commons.testing.web.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>api.identity</artifactId>
-                <version>${com.github.lc.oss.commons.api.identity.version}</version>
+                <version>${io.github.lc.oss.commons.api.identity.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>api.logging</artifactId>
-                <version>${com.github.lc.oss.commons.api.logging.version}</version>
+                <version>${io.github.lc.oss.commons.api.logging.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>api.services</artifactId>
-                <version>${com.github.lc.oss.commons.api.services.version}</version>
+                <version>${io.github.lc.oss.commons.api.services.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>email</artifactId>
-                <version>${com.github.lc.oss.commons.email.version}</version>
+                <version>${io.github.lc.oss.commons.email.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>encoding</artifactId>
-                <version>${com.github.lc.oss.commons.encoding.version}</version>
+                <version>${io.github.lc.oss.commons.encoding.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>encryption</artifactId>
-                <version>${com.github.lc.oss.commons.encryption.version}</version>
+                <version>${io.github.lc.oss.commons.encryption.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>encryption.config</artifactId>
-                <version>${com.github.lc.oss.commons.encryption.config.version}</version>
+                <version>${io.github.lc.oss.commons.encryption.config.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>google.auth</artifactId>
-                <version>${com.github.lc.oss.commons.google.auth.version}</version>
+                <version>${io.github.lc.oss.commons.google.auth.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>hashing</artifactId>
-                <version>${com.github.lc.oss.commons.hashing.version}</version>
+                <version>${io.github.lc.oss.commons.hashing.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>identity</artifactId>
-                <version>${com.github.lc.oss.commons.identity.version}</version>
+                <version>${io.github.lc.oss.commons.identity.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>jpa</artifactId>
-                <version>${com.github.lc.oss.commons.jwt.version}</version>
+                <version>${io.github.lc.oss.commons.jwt.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>jwt</artifactId>
-                <version>${com.github.lc.oss.commons.jwt.version}</version>
+                <version>${io.github.lc.oss.commons.jwt.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>l10n</artifactId>
-                <version>${com.github.lc.oss.commons.l10n.version}</version>
+                <version>${io.github.lc.oss.commons.l10n.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>javafx</artifactId>
-                <version>${com.github.lc.oss.commons.javafx.version}</version>
+                <version>${io.github.lc.oss.commons.javafx.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>raspberrypi</artifactId>
-                <version>${com.github.lc.oss.commons.raspberrypi.version}</version>
+                <version>${io.github.lc.oss.commons.raspberrypi.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>serialization</artifactId>
-                <version>${com.github.lc.oss.commons.serialization.version}</version>
+                <version>${io.github.lc.oss.commons.serialization.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>services</artifactId>
-                <version>${com.github.lc.oss.commons.services.version}</version>
+                <version>${io.github.lc.oss.commons.services.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>signing</artifactId>
-                <version>${com.github.lc.oss.commons.signing.version}</version>
+                <version>${io.github.lc.oss.commons.signing.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>ssh</artifactId>
-                <version>${com.github.lc.oss.commons.ssh.version}</version>
+                <version>${io.github.lc.oss.commons.ssh.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>util</artifactId>
-                <version>${com.github.lc.oss.commons.util.version}</version>
+                <version>${io.github.lc.oss.commons.util.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>validation</artifactId>
-                <version>${com.github.lc.oss.commons.validation.version}</version>
+                <version>${io.github.lc.oss.commons.validation.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>web</artifactId>
-                <version>${com.github.lc.oss.commons.web.version}</version>
+                <version>${io.github.lc.oss.commons.web.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>web.resources</artifactId>
-                <version>${com.github.lc.oss.commons.web.resources.version}</version>
+                <version>${io.github.lc.oss.commons.web.resources.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>testing</artifactId>
-                <version>${com.github.lc.oss.commons.testing.version}</version>
+                <version>${io.github.lc.oss.commons.testing.version}</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
-                <groupId>com.github.locke-chappel.oss.commons</groupId>
+                <groupId>io.github.locke-chappel.oss.commons</groupId>
                 <artifactId>testing.web</artifactId>
-                <version>${com.github.lc.oss.commons.testing.web.version}</version>
+                <version>${io.github.lc.oss.commons.testing.web.version}</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>

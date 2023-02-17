@@ -8,9 +8,9 @@ The intended use case is for a parent POM to declare this BOM as a dependency un
 <dependencyManagement>
   <dependencies>
     <dependency>
-      <groupId>com.github.locke-chappel.oss.commons</groupId>
+      <groupId>io.github.locke-chappel.oss.commons</groupId>
       <artifactId>bom</artifactId>
-      <version>${com.github.lc.oss.common.bom.version}</version>
+      <version>${io.github.lc.oss.common.bom.version}</version>
       <type>pom</type>
       <scope>import</scope>
     </dependency>
