@@ -14,7 +14,7 @@
     <packaging>pom</packaging>
     <name>OSS Commons Bill of Materials</name>
     <description>Bill of Materials for io.github.locke-chappel.oss.commons projects</description>
-    <url>https://github.com/locke-chappel/oss-commons-bom</url>
+    <url>https://github.com/locke-chappel/oss-java-commons-bom</url>
 
     <licenses>
         <license>
