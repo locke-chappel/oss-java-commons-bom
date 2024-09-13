@@ -5,12 +5,12 @@
     <parent>
         <groupId>io.github.locke-chappel.oss</groupId>
         <artifactId>parent</artifactId>
-        <version>1.0.15</version>
+        <version>1.0.16</version>
     </parent>
     
     <groupId>io.github.locke-chappel.oss.commons</groupId>
     <artifactId>bom</artifactId>
-    <version>1.0.15</version>
+    <version>1.0.16</version>
     <packaging>pom</packaging>
     <name>OSS Commons Bill of Materials</name>
     <description>Bill of Materials for io.github.locke-chappel.oss.commons projects</description>
@@ -42,32 +42,32 @@
     </scm>
     
     <properties>
-        <io.github.lc.oss.commons.api.identity.version>1.0.15</io.github.lc.oss.commons.api.identity.version>
-        <io.github.lc.oss.commons.api.logging.version>1.0.15</io.github.lc.oss.commons.api.logging.version>
-        <io.github.lc.oss.commons.api.services.version>1.0.15</io.github.lc.oss.commons.api.services.version>
-        <io.github.lc.oss.commons.email.version>1.0.15</io.github.lc.oss.commons.email.version>
-        <io.github.lc.oss.commons.encoding.version>1.0.15</io.github.lc.oss.commons.encoding.version>
-        <io.github.lc.oss.commons.encryption.version>1.0.15</io.github.lc.oss.commons.encryption.version>
-        <io.github.lc.oss.commons.encryption.config.version>1.0.15</io.github.lc.oss.commons.encryption.config.version>
-        <io.github.lc.oss.commons.google.auth.version>1.0.15</io.github.lc.oss.commons.google.auth.version>
-        <io.github.lc.oss.commons.hashing.version>1.0.15</io.github.lc.oss.commons.hashing.version>
-        <io.github.lc.oss.commons.identity.version>1.0.15</io.github.lc.oss.commons.identity.version>
-        <io.github.lc.oss.commons.javafx.version>1.0.15</io.github.lc.oss.commons.javafx.version>
-        <io.github.lc.oss.commons.jpa.version>1.0.15</io.github.lc.oss.commons.jpa.version>
-        <io.github.lc.oss.commons.jwt.version>1.0.15</io.github.lc.oss.commons.jwt.version>
-        <io.github.lc.oss.commons.l10n.version>1.0.15</io.github.lc.oss.commons.l10n.version>
-        <io.github.lc.oss.commons.raspberrypi.version>1.0.15</io.github.lc.oss.commons.raspberrypi.version>
-        <io.github.lc.oss.commons.serialization.version>1.0.15</io.github.lc.oss.commons.serialization.version>
-        <io.github.lc.oss.commons.services.version>1.0.15</io.github.lc.oss.commons.services.version>
-        <io.github.lc.oss.commons.signing.version>1.0.15</io.github.lc.oss.commons.signing.version>
-        <io.github.lc.oss.commons.ssh.version>1.0.15</io.github.lc.oss.commons.ssh.version>
-        <io.github.lc.oss.commons.util.version>1.0.15</io.github.lc.oss.commons.util.version>
-        <io.github.lc.oss.commons.validation.version>1.0.15</io.github.lc.oss.commons.validation.version>
-        <io.github.lc.oss.commons.web.version>1.0.15</io.github.lc.oss.commons.web.version>
-        <io.github.lc.oss.commons.web.resources.version>1.0.15</io.github.lc.oss.commons.web.resources.version>
+        <io.github.lc.oss.commons.api.identity.version>1.0.16</io.github.lc.oss.commons.api.identity.version>
+        <io.github.lc.oss.commons.api.logging.version>1.0.16</io.github.lc.oss.commons.api.logging.version>
+        <io.github.lc.oss.commons.api.services.version>1.0.16</io.github.lc.oss.commons.api.services.version>
+        <io.github.lc.oss.commons.email.version>1.0.16</io.github.lc.oss.commons.email.version>
+        <io.github.lc.oss.commons.encoding.version>1.0.16</io.github.lc.oss.commons.encoding.version>
+        <io.github.lc.oss.commons.encryption.version>1.0.16</io.github.lc.oss.commons.encryption.version>
+        <io.github.lc.oss.commons.encryption.config.version>1.0.16</io.github.lc.oss.commons.encryption.config.version>
+        <io.github.lc.oss.commons.google.auth.version>1.0.16</io.github.lc.oss.commons.google.auth.version>
+        <io.github.lc.oss.commons.hashing.version>1.0.16</io.github.lc.oss.commons.hashing.version>
+        <io.github.lc.oss.commons.identity.version>1.0.16</io.github.lc.oss.commons.identity.version>
+        <io.github.lc.oss.commons.javafx.version>1.0.16</io.github.lc.oss.commons.javafx.version>
+        <io.github.lc.oss.commons.jpa.version>1.0.16</io.github.lc.oss.commons.jpa.version>
+        <io.github.lc.oss.commons.jwt.version>1.0.16</io.github.lc.oss.commons.jwt.version>
+        <io.github.lc.oss.commons.l10n.version>1.0.16</io.github.lc.oss.commons.l10n.version>
+        <io.github.lc.oss.commons.raspberrypi.version>1.0.16</io.github.lc.oss.commons.raspberrypi.version>
+        <io.github.lc.oss.commons.serialization.version>1.0.16</io.github.lc.oss.commons.serialization.version>
+        <io.github.lc.oss.commons.services.version>1.0.16</io.github.lc.oss.commons.services.version>
+        <io.github.lc.oss.commons.signing.version>1.0.16</io.github.lc.oss.commons.signing.version>
+        <io.github.lc.oss.commons.ssh.version>1.0.16</io.github.lc.oss.commons.ssh.version>
+        <io.github.lc.oss.commons.util.version>1.0.16</io.github.lc.oss.commons.util.version>
+        <io.github.lc.oss.commons.validation.version>1.0.16</io.github.lc.oss.commons.validation.version>
+        <io.github.lc.oss.commons.web.version>1.0.16</io.github.lc.oss.commons.web.version>
+        <io.github.lc.oss.commons.web.resources.version>1.0.16</io.github.lc.oss.commons.web.resources.version>
 
-        <io.github.lc.oss.commons.testing.version>1.0.15</io.github.lc.oss.commons.testing.version>
-        <io.github.lc.oss.commons.testing.web.version>1.0.15</io.github.lc.oss.commons.testing.web.version>
+        <io.github.lc.oss.commons.testing.version>1.0.16</io.github.lc.oss.commons.testing.version>
+        <io.github.lc.oss.commons.testing.web.version>1.0.16</io.github.lc.oss.commons.testing.web.version>
     </properties>
 
     <dependencyManagement>
